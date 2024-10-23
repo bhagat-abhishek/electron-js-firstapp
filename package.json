@@ -1,0 +1,15 @@
+{
+  "name": "electron-js-firstapp",
+  "version": "1.0.0",
+  "description": "An walkthrough the electron.js framework.",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Abishek",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^33.0.2"
+  }
+}
