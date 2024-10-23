@@ -8,6 +8,12 @@ const createWindow = () => {
     webPreferences: {
       preload: path.join(__dirname, "preload.js"),
     },
+    titleBarStyle: "hidden",
+    titleBarOverlay: {
+      color: "#2f3241",
+      symbolColor: "#74b1be",
+      height: 60,
+    },
   });
 
   win.loadFile(path.join(__dirname, "/ui/index.html"));
